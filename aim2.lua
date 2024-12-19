@@ -16,7 +16,7 @@ local config = {
     CircleTransparency = 1, -- Прозрачность круга FOV.
     CircleRadius = 100, -- Радиус круга FOV.
     CircleFilled = false, -- Заполнять ли круг.
-    CircleVisible = true, -- Видимость круга.
+    CircleVisible = false, -- Видимость круга.
     CircleThickness = 2 -- Толщина круга.
 }
 
