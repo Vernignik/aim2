@@ -14,10 +14,10 @@ local config = {
     CircleSides = 64, -- Количество сторон у круга FOV.
     CircleColor = Color3.fromRGB(255, 255, 255), -- Цвет круга FOV.
     CircleTransparency = 1, -- Прозрачность круга FOV.
-    CircleRadius = 80, -- Радиус круга FOV.
+    CircleRadius = 100, -- Радиус круга FOV.
     CircleFilled = false, -- Заполнять ли круг.
     CircleVisible = true, -- Видимость круга.
-    CircleThickness = 0 -- Толщина круга.
+    CircleThickness = 2 -- Толщина круга.
 }
 
 local FOVCircle = Drawing.new("Circle")
