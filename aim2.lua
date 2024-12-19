@@ -7,7 +7,7 @@ local LocalPlayer = Players.LocalPlayer
 
 -- Конфигурация
 local config = {
-    AimbotEnabled = true,
+    AimbotEnabled = false,
     TeamCheck = false, -- Если включено, аимбот будет нацеливаться только на вражеские команды.
     AimPart = "Head", -- Часть тела, на которую будет нацеливаться аимбот.
     Sensitivity = 0, -- Время, за которое аимбот будет фиксировать цель.
